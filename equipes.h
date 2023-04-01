@@ -7,7 +7,9 @@
 struct Equipe{
     QString nom;
     QString ville;
+    QString stade;
 };
+
 
 void ajouterEquipe(const Equipe &equipe);
 void supprimerEquipe(const QString &nom);

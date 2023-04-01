@@ -18,3 +18,7 @@ void supprimerEquipe(const QString &nom){
 QVector<Equipe> listeEquipes(){
     return equipes;
 }
+
+bool verifierNombreMinimumEquipes(int nombreMinimum){
+    return equipes.size() >= nombreMinimum;
+}
