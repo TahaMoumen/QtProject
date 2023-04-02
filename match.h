@@ -9,8 +9,11 @@ struct Match {
     QString equipe1;
     QString equipe2;
     QDate date;
+    int score1;
+    int score2;
 };
 
 QVector<Match> genererPlanning(QVector<Equipe> equipes);
+
 
 #endif

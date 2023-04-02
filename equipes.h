@@ -8,6 +8,7 @@ struct Equipe{
     QString nom;
     QString ville;
     QString stade;
+    int points;
 };
 
 
